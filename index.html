@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+    <title>My Valentine</title>
+</head>
+<body onload="onPageLoad()">
+
+    <div class="banner">
+        <div class="banner-title">
+            My Valentine <3
+        </div>
+    </div>
+
+    <div>
+        <div class="home-div">
+            <div class="img-div">
+                <img id="display-image" alt="">
+            </div>
+            <div class="home-text">
+                Will you be my valentine?
+            </div>
+            <div style=" display: flex; gap: 15px; justify-self: center; margin-top: 20px; ">
+                <button class="btn" onclick="onAcceptProposal()">Yes</button>
+                <button class="btn" id="movable" style="background-color: #d73c45; color: #fcd8da" onclick="changeMochaImageToAngry()">No</button>
+            </div>
+            <div class="rejection-text-div">
+                <div id="rejection-text"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

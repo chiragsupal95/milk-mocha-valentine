@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background: #F3D7CA;
+}
+
+.banner{
+    display: flex;
+    font-size: 30px;
+    font-weight: 700;
+    background: #E6A4B4;
+    padding: 20px;
+    justify-content: center;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.3);
+}
+
+.banner-title{
+    color: #9c4157;
+}
+
+.img-div{
+    height: 335px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-div{
+    display: grid;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.home-pic{
+    width: 500px;
+    height: 335px;
+}
+
+.home-text{
+    justify-self: center;
+    font-size: 22px;
+    font-weight: 600;
+    color: #b74f68;
+}
+
+.btn{
+    width: 75px;
+    padding: 7px 6px;
+    border: 1px solid #b74f68;
+    border-radius: 4px;
+    background: #fcd8da;
+    color: #b74f68;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    font-weight: 600;   
+}
+
+.rejection-text-div{
+    justify-self: center;
+    margin-top: 35px;
+    padding: 10px;
+}
+
+#rejection-text{
+    font-size: 22px;
+    font-weight: 600;
+    color: #d73c45;
+}
