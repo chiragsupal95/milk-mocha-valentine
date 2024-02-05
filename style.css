@@ -10,7 +10,7 @@ body{
 
 .banner{
     display: flex;
-    font-size: 30px;
+    font-size: 22px;
     font-weight: 700;
     background: #E6A4B4;
     padding: 20px;
@@ -42,7 +42,7 @@ body{
 
 .home-text{
     justify-self: center;
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 600;
     color: #b74f68;
 }
@@ -66,7 +66,7 @@ body{
 }
 
 #rejection-text{
-    font-size: 22px;
+    font-size: 16px;
     font-weight: 600;
     color: #d73c45;
 }

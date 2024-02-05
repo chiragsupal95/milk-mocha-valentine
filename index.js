@@ -2,26 +2,26 @@ var image;
 var rejectionPictureOfMocha = [
     {
         src: 'sad-mocha.png',
-        width: 340,
-        height: 315,
+        width: 200,
+        height: 200,
         msg: "Don't you love me?",
     },
     {
         src: 'sad-mocha2.png',
-        width: 250,
-        height: 245,
+        width: 180,
+        height: 180,
         msg: 'Shut up. Accept my proposal.'
     },
     {
         src: 'sad-mocha3.jpg',
-        width: 415,
-        height: 305,
+        width: 250,
+        height: 200,
         msg: 'Please, I want you to be my valentine :('
     },
     {
         src: 'sad-mocha4.jpg',
-        width: 315,
-        height: 220,
+        width: 230,
+        height: 180,
         msg: 'Why are you rejecting? :('
     }
 ];
@@ -29,8 +29,8 @@ var rejectionPictureOfMocha = [
 function onPageLoad() {
     image = document.getElementById('display-image');
     image.src = 'milk-bear-mocha-3840x2548-10248.jpg';
-    image.width = 500;
-    image.height = 335;
+    image.width = 325;
+    image.height = 255;
 }
 
 function changeMochaImageToAngry() {
