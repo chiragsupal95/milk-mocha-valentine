@@ -44,14 +44,16 @@ function changeMochaImageToAngry() {
     rejectionMessage.textContent = imageInfo.msg;
 }
 
-function onAcceptProposal() {
+function onAcceptProposal(button) {
+    var container = button.parentNode;
+    container.parentNode.removeChild(container)
     image = document.getElementById('display-image');
     var rejectionMessage = document.getElementById('rejection-text');
     setTimeout(() => {
         image.src = 'accepted-mocha-milk.gif';
         image.width = 300;
         image.height = 300;
-        rejectionMessage.textContent = 'I LOVE YOU <3'
+        rejectionMessage.textContent = 'I LOVE YOU PIKO <3'
 
     }, 3000)
     image.src = 'happy-mocha.jpg';
